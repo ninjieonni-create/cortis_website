@@ -60,14 +60,25 @@
         h2 {
             text-align: center;
         }
+
         #profil {
-            background-color: rgb(1, 122, 64);
             padding-bottom: 20px;
         }
+
         #profil img {
             display: block;
             margin-left: auto;
             margin-right: auto;
+        }
+        .photo-profil-container {
+            background-color: rgb(1, 122, 64);
+            margin: 20px 0;
+            padding-top: 20px ;
+            padding-bottom: 20px ;
+
+        }
+        .content {
+            text-align: center;
         }
     </style>
 </head>
@@ -96,8 +107,10 @@
 
         <section id="profil">
             <h2>Profil</h2>
-            <img width="300"
+            <div class="photo-profil-container">
+            <img width="500"
                 src="https://image.weversejapan.com/official/live/cortis/contents/profile/3/16e219337bde450fbff2052bdadc1fa0.jpg" />
+            </div>
         </section>
 
         <section id="photo">
