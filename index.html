@@ -38,6 +38,18 @@
             padding: 10px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
+
+        .photo-list-container {
+            display: flex;
+        }
+
+        div.photo-list-container div {
+            display:flex ;
+            align-items: center;
+            flex-direction: column;
+            margin: 5px;
+        }
+
     </style>
 </head>
 
@@ -68,25 +80,42 @@
 
         <section id="photo">
             <h2>Members</h2>
-            <img width="100"
-                src="https://image.weversejapan.com/official/live/cortis/contents/profile/3/4b3c0911616f4c1280bf1602197ac417.jpg" />
-            <img width="100"
-                src="https://image.weversejapan.com/official/live/cortis/contents/profile/3/7b4d76643163474cb573714bc0042073.jpg" />
-            <img width="100"
-                src="https://image.weversejapan.com/official/live/cortis/contents/profile/3/6dec4dd5bdf3434aaa1c30990e2fe292.jpg" />
-            <img width="100"
-                src="https://image.weversejapan.com/official/live/cortis/contents/profile/3/7da49e46dfd74b2081982ae96f12dc2a.jpg" />
-            <img width="100"
-                src="https://image.weversejapan.com/official/live/cortis/contents/profile/3/44eef26ad19e47ea898da0f88e15abef.jpg" />
+            <div class="photo-list-container">
+                <div>
+                    <img width="100"
+                        src="https://image.weversejapan.com/official/live/cortis/contents/profile/3/4b3c0911616f4c1280bf1602197ac417.jpg" />
+                    <div>JAMES</div>
+                </div>
+                <div>
+                    <img width="100"
+                        src="https://image.weversejapan.com/official/live/cortis/contents/profile/3/7b4d76643163474cb573714bc0042073.jpg" />
+                    <div>KEONHO</div>
+                </div>
+                <div>
+                    <img width="100"
+                        src="https://image.weversejapan.com/official/live/cortis/contents/profile/3/6dec4dd5bdf3434aaa1c30990e2fe292.jpg" />
+                    <div>MARTIN</div>
+                </div>
+                <div>
+                    <img width="100"
+                        src="https://image.weversejapan.com/official/live/cortis/contents/profile/3/7da49e46dfd74b2081982ae96f12dc2a.jpg" />
+                    <div>JUHOON</div>
+                </div>
+                <div>
+                    <img width="100"
+                        src="https://image.weversejapan.com/official/live/cortis/contents/profile/3/44eef26ad19e47ea898da0f88e15abef.jpg" />
+                    <div>SEONGHYEON</div>
 
-            <p>JAMES </p> 
+                </div>
+            </div>
         </section>
     </div>
     <footer>
-        <p>&copy; 2026 Proyek Tugas HTML Sekolah - Dibuat oleh [Nurin & Sarah]. </p>
-        <small>Disclamer: Website ini dibuat hanya untuk tugas sekolah. Seluruh hak cipta foto, logo adalah milik BIGHIT
-            MUSIC / HYBE.</small></p>
-        <p> ------------------</p>
+        <div>&copy; 2026 Proyek Tugas HTML Sekolah - Dibuat oleh [Nurin & Sarah]. </div>
+        <div><small>Disclamer: Website ini dibuat hanya untuk tugas sekolah. Seluruh hak cipta foto, logo adalah milik
+                BIGHIT
+                MUSIC / HYBE.</small></div>
+        <div> ------------------</div>
     </footer>
 </body>
 
